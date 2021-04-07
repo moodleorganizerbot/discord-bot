@@ -2,7 +2,6 @@
 __pycache__
 
 # Virtual Environments
-bot-env
 venv
 
 # Local Archives
@@ -19,10 +18,6 @@ secret1.py
 
 # Tests Files
 test.py
-
-# EGG
-moodleapi.egg-info
-build
 
 # Music Files
 *.webm
