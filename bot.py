@@ -5,9 +5,8 @@ import discord
 from discord import Intents
 from discord.ext import commands
 
-from utilities import main_messages_style, positive_emojis_list
-from utilities_moodle import get_data_timer
-from secret1 import DB_Username, DB_Password, Bot_token
+from bot.utilities import main_messages_style, positive_emojis_list
+from bot.utilities_moodle import get_data_timer
 
 
 async def get_serverSettings(client, ctx) -> str:
